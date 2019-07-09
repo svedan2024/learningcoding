@@ -1,0 +1,114 @@
+import os 
+print("Hello world")
+print("Nice to meet you! ")
+
+#strings
+#quotes, can have numbers & letters
+
+#arrays of characters 
+
+#immutable 
+stringA = "hello"
+#stringA[0] = "i"
+
+stringA = "iello"
+
+print(len("99 99  9"))
+print(str(99))
+#print(100 + "days")
+
+#try using the len method to determine the length of some string 
+b="My age is "
+#try converting a number to a string 
+print (len(b))
+print (b + str(13))
+
+#string slicing 
+stringB = "abcdefg"
+print(stringB[0])
+
+#print out d using string slicing 
+print(stringB[3])
+
+print(stringB[0:5])#first number is starting index, last number is stopping index but does not include that character
+
+stringC = "python is fun!"
+#how would you print out the word python?
+print (stringC[:6])
+
+#how would you print out "fun!" using the default end 
+print (stringC[10:])
+
+print(stringC[:7:2])
+print(stringC[::3])
+
+#create a string 
+#print out every other character from beginning to end
+#print out every 3rd character from index 4 to the end 
+stringD="I love coding! "
+print (stringD[::2])
+print (stringD[4::3])
+
+#reversed strings 
+print(stringD[::-1])
+print(stringD[8::-1])
+
+#create a new string and print in reversed order from index 3 
+stringE="I can't think of a new name! "
+print(stringE[:3:-1])
+
+#print from index 5 and print every other character 
+print (stringE[:5:-2])
+
+print("Hello " + "world")
+var1 = "Good"
+var2 = " morning!"
+print(var1 + var2)
+
+#use concatenation (+) to print out a string that originally consists of three strings 
+firstpart="Coding "
+secondpart="is "
+thirdpart="so much fun! "
+print(firstpart + secondpart + thirdpart)
+
+print(firstpart[:-3])
+
+#* operator
+print(firstpart * 3)
+
+#print out some string 4 times 
+print (thirdpart*4)
+
+#escape characters
+y = "string"
+print(y)
+x = "\"string\""
+print(x)
+
+#print out a string with quotation marks 
+z="\"I am having so much fun!\""
+print (z)
+
+#newline 
+a = "Here is a \n new line"
+print(a)
+#tab
+b = "Here is a \t tab"
+print(b)
+
+os.system('clear')
+#use newline and tab in a string of your own! 
+s="Shrey \n is amazing! "
+print(s)
+m="Milan \t is amazing! "
+print (m)
+
+n = "string"
+
+print(n.replace("i", "o"))#the character you want to replace, what to replace it with 
+g= "oooo"
+print(g.replace("o", "e", 2))#how many times you want to replace it 
+
+#create a string and use replace on some part of it  
+r="Shreyas"
+print(r.replace("as", ""))
